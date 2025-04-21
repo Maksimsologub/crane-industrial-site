@@ -3,52 +3,101 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>CraneTech Industrial</title>
+  <meta name="description" content="Astrelic provides advanced crane remote controls, EOT crane parts, and industrial service solutions for safe, efficient crane operations." />
+  <title>Astrelic CraneTech | Industrial Crane Remotes & Parts</title>
   <link rel="stylesheet" href="styles/main.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
+  <!-- Header -->
   <header>
-    <div class="container">
-      <img src="assets/logos/astrelic-logo.png" alt="CraneTech Logo" class="logo"/>
+    <div class="container header-content">
+      <a href="#">
+        <img src="assets/logos/astrelic-logo.png" alt="Astrelic Logo" class="logo-img" />
+      </a>
       <nav>
-        <a href="#services">Parts</a>
-        <a href="#contact">Contact</a>
+        <ul>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#applications">Applications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </nav>
     </div>
   </header>
 
+  <!-- Hero Section -->
   <section class="hero">
     <div class="container">
-      <h1>Your Source for EOT Crane Parts & Industrial Service</h1>
-      <p>Reliable equipment. Expert support. Fast response.</p>
+      <h1>Industrial Crane Controls & Spare Parts</h1>
+      <p>Specializing in EOT crane remotes, hoists, radio control systems, and on-site service support.</p>
+      <a href="#contact" class="cta-button">Contact Us</a>
     </div>
   </section>
 
-  <section id="services" class="services">
+  <!-- Products Section -->
+  <section id="products" class="section">
     <div class="container">
-      <h2>Our Services</h2>
-      <div class="service-cards">
-        <div class="card">Preventative Maintenance</div>
-        <div class="card">Spare Parts & Retrofits</div>
-        <div class="card">24/7 Emergency Repair</div>
-      </div>
-
-      <!-- 🖼️ Sample Product Images -->
-      <div class="image-gallery">
-        <img src="assets/images/radio-remote-control-set.jpg" alt="Remote Control">
-        <img src="assets/images/radio-remote-microcontroller.jpg" alt="Microcontroller">
-        <img src="assets/images/maks_receiver_and_transmitter_removebg.jpg" alt="Transmitter">
+      <h2 class="section-title">Our Products</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="assets/images/radio-remote-control-set.jpg" alt="Crane Remote" />
+          <h3>Radio Remote Controls</h3>
+          <p>Reliable crane wireless remote systems with emergency stops and rugged enclosures.</p>
+        </div>
+        <div class="product-card">
+          <img src="assets/images/maks_receiver_and_transmitter_removebg.jpg" alt="Receiver & Transmitter" />
+          <h3>Receivers & Transmitters</h3>
+          <p>Long-range RF control modules compatible with major EOT crane systems.</p>
+        </div>
+        <div class="product-card">
+          <img src="assets/images/radio-remote-microcontroller.jpg" alt="Microcontroller" />
+          <h3>Custom Microcontrollers</h3>
+          <p>Customized boards for precision crane motion control and automated lifts.</p>
+        </div>
       </div>
     </div>
   </section>
 
-  <section id="contact" class="contact">
+  <!-- Services Section -->
+  <section id="services" class="section light-bg">
     <div class="container">
-      <h2>Contact Us</h2>
-      <form action="https://formsubmit.co/info@astrelic.com" method="POST">
+      <h2 class="section-title">Our Services</h2>
+      <ul class="service-list">
+        <li>Preventative Maintenance for Cranes</li>
+        <li>Spare Parts & Electrical Panels</li>
+        <li>Crane Modernization & Upgrades</li>
+        <li>Emergency 24/7 Repair Service</li>
+        <li>On-site Remote Installation & Calibration</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Applications Section -->
+  <section id="applications" class="section">
+    <div class="container">
+      <h2 class="section-title">Applications</h2>
+      <p>Our solutions are used in:</p>
+      <div class="applications-grid">
+        <div class="application-card">EOT Cranes & Gantries</div>
+        <div class="application-card">Factory Lifts & Hoists</div>
+        <div class="application-card">Shipyards & Steel Plants</div>
+        <div class="application-card">Construction & Civil Lifting</div>
+        <div class="application-card">Heavy Machinery Handling</div>
+        <div class="application-card">Special Purpose Cranes</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section light-bg">
+    <div class="container">
+      <h2 class="section-title">Contact Us</h2>
+      <p>For crane parts, remotes, or repairs — send us a message:</p>
+      <form action="https://formsubmit.co/info@astrelic.com" method="POST" class="contact-form">
         <input type="text" name="name" placeholder="Your Name" required />
         <input type="email" name="email" placeholder="Your Email" required />
         <textarea name="message" placeholder="Your Message" required></textarea>
@@ -58,13 +107,14 @@
     </div>
   </section>
 
+  <!-- Footer -->
   <footer>
     <div class="container">
-      <p>&copy; 2025 CraneTech Industrial. All rights reserved.</p>
+      <p>&copy; 2025 Astrelic CraneTech. All rights reserved.</p>
+      <p>info@astrelic.com</p>
     </div>
   </footer>
 
-  <script src="scripts/main.js"></script>
 </body>
 </html>
 
