@@ -1,0 +1,134 @@
+/* Reset & Base Styles */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Container */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background-color: #000;
+  padding: 20px 0;
+  color: white;
+}
+
+header .logo {
+  height: 40px;
+  vertical-align: middle;
+}
+
+header nav {
+  float: right;
+}
+
+header nav a {
+  color: #facc15;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Hero */
+.hero {
+  background: #333;
+  color: #facc15;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+/* Services */
+.services {
+  background-color: #fff;
+  padding: 60px 20px;
+}
+
+.services h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #000;
+}
+
+.service-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background-color: #facc15;
+  color: #000;
+  padding: 20px;
+  width: 250px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* Contact */
+.contact {
+  background: #eee;
+  padding: 60px 20px;
+}
+
+.contact h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, textarea, button {
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #000;
+  color: #facc15;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+/* Footer */
+footer {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}
+
