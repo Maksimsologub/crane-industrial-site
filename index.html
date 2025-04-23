@@ -3,12 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Astrelic provides advanced crane wireless remote control systems engineered for safety, reliability, and industrial performance.">
-  <meta name="keywords" content="crane remote control, wireless crane systems, hoist remote, EOT crane remote, industrial crane control">
+  <meta name="description" content="Astrelic provides advanced crane wireless remote control systems engineered for safety, reliability, and industrial performance. Discover robust crane components, industrial-grade transmitters, receivers, and crane automation technologies.">
+  <meta name="keywords" content="crane remote control, wireless crane systems, hoist remote, EOT crane remote, industrial crane control, crane automation, crane safety systems, heavy-duty crane controls">
   <title>Astrelic | Crane Wireless Remote Control Solutions</title>
-  <link rel="stylesheet" href="site.css" />
+  <link rel="stylesheet" href="styles/site.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -28,18 +29,20 @@
 <body>
 
   <!-- Header -->
-  <header class="site-header">
+  <header class="site-header" data-aos="fade-down">
     <div class="container header-container">
       <div class="logo-nav">
         <a href="#" class="logo">
-          <img src="assets/logos/astrellic-logo.png" alt="Astrelic Logo" />
+          <img src="assets/logos/astrelic-logo.png" alt="Astrelic Logo" class="logo-img" />
         </a>
-        <nav class="nav-links">
-          <a href="#products">Products</a>
-          <a href="#services">Services</a>
-          <a href="#features">Features</a>
-          <a href="#applications">Applications</a>
-          <a href="#contact">Contact</a>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#products">Products</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#applications">Applications</a></li>
+            <li><a href="#accessories">Accessories</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
         </nav>
       </div>
       <div class="header-email">
@@ -49,7 +52,7 @@
   </header>
 
   <!-- Hero Section -->
-  <section class="hero">
+  <section class="hero" data-aos="fade-up">
     <div class="container">
       <h1>Take Full Control—Wirelessly.</h1>
       <p>Empower your team with Astrelic’s cutting-edge crane remote systems built for safety, uptime, and industrial dominance. No wires. No limits. Just results.</p>
@@ -58,41 +61,39 @@
   </section>
 
   <!-- Products -->
-  <section id="products" class="products">
+  <section id="products" class="products" data-aos="fade-up">
     <div class="container">
       <h2>Our Crane Remote Control Range</h2>
-
-      <div class="product">
-        <h3>Maks Series</h3>
-        <p>The latest and most advanced crane radio remote control for cranes, featuring replaceable buttons for easy maintenance and uninterrupted operations.</p>
-        <ul>
-          <li>On-field replaceable push buttons</li>
-          <li>User-friendly and ergonomic design</li>
-          <li>Certified by WPC and IDEMI</li>
-          <li>High reliability and performance</li>
-        </ul>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="assets/images/maks_ppt_19.jpg" alt="Maks Series Remote" />
+          <h3>Maks Series</h3>
+          <p>The latest and most advanced crane radio remote control for cranes, featuring replaceable buttons for easy maintenance and uninterrupted operations.</p>
+        </div>
+        <div class="product-card">
+          <img src="assets/images/arc_1201.jpg" alt="ARC Series Remote" />
+          <h3>ARC Series</h3>
+          <p>A premium wireless hoist remote control system for EOT cranes and hoists, offering robust safety features and long-range operation.</p>
+        </div>
+        <div class="product-card">
+          <img src="assets/images/radio-remote-control-set.jpg" alt="Control Set" />
+          <h3>Remote Control Set</h3>
+          <p>Complete industrial wireless radio control set for crane and hoist management with universal compatibility and emergency stop integration.</p>
+        </div>
+        <div class="product-card">
+          <img src="assets/images/maks_receiver_and_transmitter_removebg.jpg" alt="Receiver and Transmitter" />
+          <h3>Receiver & Transmitter Unit</h3>
+          <p>Durable dual-channel receiver and wireless transmitter units built for heavy-duty lifting and precision operation.</p>
+        </div>
       </div>
-
-      <div class="product">
-        <h3>ARC Series</h3>
-        <p>A premium wireless hoist remote control system for EOT cranes and hoists, offering robust safety features and long-range operation.</p>
-        <ul>
-          <li>8–12 button options, single/dual speed</li>
-          <li>IP65-rated enclosure</li>
-          <li>100-meter range</li>
-          <li>Safety circuit and emergency stop</li>
-        </ul>
-      </div>
-
       <p class="product-note">
-        We offer customizations and a variety of additional products like Astrelic and Telecrane remote controls to meet your specific needs.
-        Explore our full range in the Product List and check pricing.
+        We offer customizations and a variety of additional products like Astrelic and Telecrane remote controls to meet your specific needs. Explore our full range in the Product List and check pricing.
       </p>
     </div>
   </section>
 
   <!-- Features -->
-  <section id="features" class="features">
+  <section id="features" class="features" data-aos="fade-up">
     <div class="container">
       <h2>Superior Features of Wireless Crane Controls</h2>
       <div class="feature-list">
@@ -113,50 +114,67 @@
   </section>
 
   <!-- Applications -->
-  <section id="applications" class="applications">
+  <section id="applications" class="applications" data-aos="fade-up">
     <div class="container">
       <h2>Industry Applications</h2>
-      <div class="application-list">
-        <div class="application">
-          <h4>EOT Cranes</h4>
-          <p>Remote control of electric overhead traveling cranes.</p>
+      <div class="applications-grid">
+        <div class="application-card">EOT Cranes</div>
+        <div class="application-card">Hoists & Lifts</div>
+        <div class="application-card">Material Handling</div>
+        <div class="application-card">Construction Equipment</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Accessories -->
+  <section id="accessories" class="accessories" data-aos="fade-up">
+    <div class="container">
+      <h2>Best Parts & Accessories for Crane Remotes</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="assets/images/anand-maks-remote-control-brochure-img.jpg" alt="Push Button Module" />
+          <h3>Push Button Modules</h3>
+          <p>Replaceable push button assemblies for high-frequency operations and long lifecycle performance.</p>
         </div>
-        <div class="application">
-          <h4>Hoists & Lifts</h4>
-          <p>Enhanced safety and precision for lifting systems.</p>
+        <div class="product-card">
+          <img src="assets/images/radio-remote-microcontroller.jpg" alt="Microcontroller Board" />
+          <h3>Smart Microcontroller Boards</h3>
+          <p>Programmed boards designed for reliable signal reception and interference resistance in wireless crane systems.</p>
         </div>
-        <div class="application">
-          <h4>Material Handling</h4>
-          <p>Stackers, conveyors, and industrial handling systems.</p>
-        </div>
-        <div class="application">
-          <h4>Construction Equipment</h4>
-          <p>Control pumps, gantries, and mini cranes remotely.</p>
+        <div class="product-card">
+          <img src="assets/images/radio-remote-control-set.jpg" alt="Protective Cases" />
+          <h3>Protective Carry Cases</h3>
+          <p>Shock-absorbent, custom-fit carrying cases that protect remotes from harsh environments and impacts.</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Contact -->
-  <section id="contact" class="contact">
+  <section id="contact" class="contact" data-aos="fade-up">
     <div class="container">
       <h2>Contact Us</h2>
-      <form action="https://formsubmit.co/info@astrelic.com" method="POST">
+      <form class="contact-form" action="https://formsubmit.co/info@astrelic.com" method="POST">
         <input type="hidden" name="_next" value="https://storage.googleapis.com/crane-industrial-site/thank-you.html" />
         <input type="text" name="name" placeholder="Your Name" required />
         <input type="email" name="email" placeholder="Your Email" required />
         <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
         <button type="submit">Send Message</button>
       </form>
+      <p class="thank-you-message">Thank you for contacting us!</p>
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="site-footer">
-    <div class="container">
-      <p>&copy; 2025 Astrelic. All rights reserved.</p>
-    </div>
-  </footer>
-
-</body>
-</html>
+    <!-- Footer -->
+    <footer class="site-footer" data-aos="fade-up">
+      <div class="container">
+        <p>&copy; 2025 Astrelic. All rights reserved.</p>
+      </div>
+    </footer>
+  
+    <!-- External Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+  </html>
+  
